@@ -1,0 +1,148 @@
+*******************************************************************************/
+public class Producto{
+    private String nombre;
+    private int Cantidad;
+    private int Precio;
+    private char FechaDeVencimiento;
+    
+    public String getNombre(){
+        return nombre
+    }
+    
+    public void setNombre(){
+        this.nombre=nombre;
+    }
+    
+    public int getCantidad{
+        return Cantidad;
+    }
+    
+    public void setCantidad(){
+        this.Cantidad=Cantidad;
+    }
+    
+    public int getPrecio{
+        return Precio;
+    }
+    
+    public void setPrecio(){
+        this.Precio=Precio;
+    }
+    
+    public char FechaDeVencimiento {
+        return FechaDeVencimiento;
+    }
+    
+    public void setFechaDeVencimiento(){
+        this.FechaDeVencimiento=FechaDeVencimiento;
+    }
+    
+}
+
+public class proveedor{
+    private String empresa;
+    private String Producto;
+    private char direccion;
+    private int telefono;
+    private String nombreContacto;
+    
+    public String empresa{
+        return empresa ;
+    }
+    
+    public void setEmpresa(){
+        this.empresa=empresa;
+    }
+    
+    public String Producto {
+        return Producto;
+    }
+    
+    public void setProducto(){
+        this.Producto=Producto;
+    }
+    
+    public char direccion {
+        return direccion;
+    }
+    
+    public void setDireccion(){
+        this.direccion=direccion;
+    }
+    
+    public int telefono{
+        return telefono;
+    }
+    
+    public void setTelefono(){
+        this.telefono=telefono;
+    }
+    
+    public String nombreContacto {
+        return nombreContacto;
+    }
+    
+    public void setNombreContacto(){
+        this.nombreContacto=nombreContacto;
+    }
+}
+
+public class administrador{
+    private String Usuario;
+    private char Contrasenna;
+    
+    public String Usuario {
+        return Usuario;
+    }
+    
+    public void setUsuario(){
+        this.Usuario=Usuario;
+    }
+    
+    public char Contraseña {
+        return Contraseña;
+    }
+    
+    public void setContrasenna(){
+        this.Contrasenna=Contrasenna;
+    }
+}
+
+public class Facturas{
+    private String NombreDelNegocio;
+    private char fecha;
+    private int TotalInvertido;
+    
+    public String NombreDelNegocio {
+        return NombreDelNegocio;
+    }
+    
+    public void setNombreDelNegocio(){
+        this.NombreDelNegocio=NombreDelNegocio;
+    }
+    
+    public char fecha {
+        return fecha;
+    }
+    
+    public void setFecha(){
+        this.fecha=fecha;
+    }
+    
+    public int TotalInvertido {
+        return TotalInvertido;
+    }
+    
+    public void setTotalInvertido(){
+        this.TotalInvertido=TotalInvertido;
+    }
+    
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("tarea");
+    System.out.println("06/04/2018");
+	}
+}
